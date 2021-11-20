@@ -1,0 +1,80 @@
+<MaltegoMessage>
+<MaltegoTransformDiscoveryMessage Source="VOZRO">
+<OtherSeedServers/>
+<TransformApplications>
+<TransformApplication name="Paterva CTAS CE" URL="https://g52.paterva.com/dispatch/ctasce/runner/" requireAPIKey="true"/>
+<TransformApplication name="Maltego Wayback Machine Transforms" URL="https://cn-mst-online-wayback-prod.paterva.com/maltego/run" requireAPIKey="true"/>
+<TransformApplication name="Maltego Property Transforms" URL="https://cn-mst-online-props-prod.paterva.com/maltego/run" requireAPIKey="true"/>
+<TransformApplication name="Maltego HTTP Transforms" URL="https://cn-mst-online-http-prod.paterva.com/maltego/run" requireAPIKey="true"/>
+<TransformApplication name="Maltego IPQualityScore CE Transforms" URL="https://integration.paterva.com/IPQualityScoreCeProd/run" requireAPIKey="true"/>
+<TransformApplication name="CE311C TAS" requireAPIKey="true" URL="https://maltego4.paterva.com/CETAS311C/MaltegoRunner"/>
+<TransformApplication name="Infrastructure" requireAPIKey="true" URL="https://cetas.paterva.com/TDS/runner/showseed/Infrastructure31"/>
+<TransformApplication name="SocialMedia" requireAPIKey="true" URL="https://dispatcher-ce.paterva.com/TDS/runner/showseed/SocialMedia"/>
+<TransformApplication name="TweetAnalyzer" requireAPIKey="true" URL="https://cetas.paterva.com/TDS/runner/showseed/TweetAnalyzer"/>
+<TransformApplication name="WesbiteIdentifiers" requireAPIKey="true" URL="https://bark.paterva.com:8081/iTDSRunner/runner/showseed/WebsiteIdentifiers"/>
+<TransformApplication name="SocialMedia" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/SocialMedia"/>
+<TransformApplication name="Shodan" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/shodan"/>
+<TransformApplication name="KasperskyLab" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/KasperskyLab"/>
+<TransformApplication name="LinkedIn" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Linkedin"/>
+<TransformApplication name="Ciphertrace" requireAPIKey="true" URL="https://integration.paterva.com/CipherTrace/run"/>
+<TransformApplication name="SocialLinksCE" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://sl-node.com/iTDS/runner/showseed/SocialLinksCE"/>
+<TransformApplication name="Wayback Machine" URL="https://prod-wayback.azurewebsites.net/maltego/run"/>
+<TransformApplication name="Infrastructure" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Infrastructure"/>
+<TransformApplication name="haveibeenpwned" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/haveibeenpwned"/>
+<TransformApplication name="WaybackMachine" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/cnFUrkoWmAzc"/>
+<TransformApplication name="GitHub" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/GitHub"/>
+<TransformApplication name="PTNew" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://seeds.malformitylabs.com/iTDS/runner/showseed/dSl9EaoT406T"/>
+<TransformApplication name="Dataprovider" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/dataprovider"/>
+<TransformApplication name="Email" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Email"/>
+<TransformApplication name="Breached" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Breached"/>
+<TransformApplication name="Whoxy" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/58NlT6SrcMwj"/>
+<TransformApplication name="Instagram" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/instagram"/>
+<TransformApplication name="Shodan" URL="https://cn-shodan-prod.paterva.com/maltego/run" requireAPIKey="true"/>
+<TransformApplication name="ThreatMiner" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/ThreatMiner"/>
+<TransformApplication name="CaseFileEntities" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/CaseFileEntities"/>
+<TransformApplication name="PassiveTotal" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/PassiveTotal"/>
+<TransformApplication name="VirusTotal" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/VirusTotal"/>
+<TransformApplication name="IPinfo" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/ipinfo"/>
+<TransformApplication name="Gravatar" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Gravatar"/>
+<TransformApplication name="FullContact" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/FullContact"/>
+<TransformApplication name="RecordedFuture" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/recordedfuture"/>
+<TransformApplication name="Clearbit" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Clearbit"/>
+<TransformApplication name="Facebook" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Facebook"/>
+<TransformApplication name="BreachAlarm" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/breachalarm"/>
+<TransformApplication name="threatcrowd" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/threatcrowdSeeeed"/>
+<TransformApplication name="snoopy" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Snoopy"/>
+<TransformApplication name="onionscan" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/fpoldiklLZnPm7"/>
+<TransformApplication name="FarsightDNSDBDev" requireAPIKey="true" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://integration.paterva.com/Farsight/run"/> 
+<TransformApplication name="hostio" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/hostio"/>
+<TransformApplication name="CCTAS Public Seed" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/public"/>
+<TransformApplication name="FacebookGraphAPI" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/facebookGraphAPI"/>
+<TransformApplication name="ZoomEye" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/ZoomEye"/>
+<TransformApplication name="builtWith" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Builtwith"/>
+<TransformApplication name="Redirects" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/zpwoSWQKz3rl"/>
+<TransformApplication name="Twitter" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Twitter"/>
+<TransformApplication name="SocialMedia" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://dispatcher-ce.paterva.com/TDS/runner/showseed/SocialMedia"/>
+<TransformApplication name="Ciphertrace" URL="https://prod-ciphertrace.azurewebsites.net/maltego/run"/>
+<TransformApplication name="MaxMind" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Maxmind"/>
+<TransformApplication name="ThreatGrid" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://seeds.threatgrid.com/iTDS/runner/showseed/FsJUxbu7j8a4"/>
+<TransformApplication name="TinEye" requireAPIKey="true"  URL="https://integration.paterva.com/TinEyeProdCE/run"/>
+<TransformApplication name="MalwaredSeed" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/malwaredMMD"/>
+<TransformApplication name="DomainTools" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/domaintools"/>
+<TransformApplication name="HybridAnalysis" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://transform.hybrid-analysis.com/iTDS/runner/showseed/dULg0vCPQhJc"/>
+<TransformApplication name="HIBP" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/HIBP"/>
+<TransformApplication name="misp" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/misp"/>
+<TransformApplication name="Dataprovider" requireAPIKey="true" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://integration.paterva.com/Dataprovider/run"/>
+<TransformApplication name="Abusix" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Abusix"/>
+<TransformApplication name="default" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/andrewTrainingDyV4ifWU"/>
+<TransformApplication name="PeopleMon" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/EpTbVdJZCdSf"/>
+<TransformApplication name="vtpub" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://seeds.malformitylabs.com/iTDS/runner/showseed/4oQRr6BNVdzF"/>
+<TransformApplication name="TinEye" URL="https://prod-tineye.azurewebsites.net/maltego/run"/>
+<TransformApplication name="Infrastructure31" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Infrastructure31"/>
+<TransformApplication name="TweetAnalyzer" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/TweetAnalyzer"/>
+<TransformApplication name="MST Wayback" requireAPIKey="true" URL="https://as-mst-online-wayback-prod-westeurope.azurewebsites.net/maltego/run"/>
+<TransformApplication name="FarsightDNSDB" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/FarsightDnsdb"/>
+<TransformApplication name="Shodan" requireAPIKey="false" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://cetas.paterva.com/TDS/runner/showseed/Shodan"/>
+<TransformApplication name="Paterva MovieDB" requireAPIKey="true" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://${this}/dispatch/moviedb/runner/"> </TransformApplication>
+<TransformApplication name="Paterva Public" requireAPIKey="true" registrationURL="http://www.paterva.com/web2/NOAPIKEY.html" URL="https://${this}/dispatch/ctasce/runner/"> </TransformApplication>
+</TransformApplications>
+</MaltegoTransformDiscoveryMessage>
+</MaltegoMessage>
